@@ -50,5 +50,6 @@ for {
     // for문에서 가장 많이 사용하는 기능은 표현식 블록 내에서 임시값 또는 변수를 정의하는 것이다.
 
 val pows = for(i <- 0 to 8 ; pow = 1 << i) yield pow // << 는 left shift 이항연산자라고 하는데 pow의 byte, 즉 2진수에서 좌측으로 한칸씩 i번 이동시킬 수 있다. 
+                                                     // Vector(1, 2, 4, 8, 16, 32, 64, 128, 256)   
 Console println pows 
 

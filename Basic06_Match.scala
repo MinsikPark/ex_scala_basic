@@ -70,7 +70,7 @@ val status3 = msg match{
 }
 
 
-/// 패턴가드를 이용한 매칭 
+// 패턴가드를 이용한 매칭 
 // 바인딩 패턴에 if 표현식을 추가
 
 val response = null
